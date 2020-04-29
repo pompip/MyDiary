@@ -1,28 +1,49 @@
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"> -->
-    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
-    <!-- Theme: Simple Dark -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
+  <!-- Theme: Simple Dark -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+</head>
 
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        loadNavbar: true,
-        // loadSidebar: true,
-        hideSidebar: false,
-        auto2top: true,
-        autoHeader: true,
-        // coverpage: true,
-        name:"我的博客",
-        repo:"https://pompip.github.io/MyDiary/#/"
-        // repo:"pompip"
-      }
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  </body>
-  </html>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      loadNavbar: true,
+      // loadSidebar: true,
+      hideSidebar: false,
+      auto2top: true,
+      autoHeader: true,
+      // coverpage: true,
+      name: "我的博客",
+      repo: "https://pompip.github.io/MyDiary/#/",
+      // repo:"pompip"
+      plugins: [
+        // EditOnGithubPlugin.create(docBase, docEditBase, title)
+        EditOnGithubPlugin.create('https://github.com/pompip/MyDiary/blob/master/'),
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/pompip">chong ke</a> &copy;2020.</span>',
+            '<span>Proudly published with <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('')
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+        // DocsifyCodefund.create(15)
+
+      ]
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+
+</html>
