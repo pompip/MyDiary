@@ -22,7 +22,7 @@
 > * id选择器 用#号来定义:`#red{color:red;} <p id=red>这个段落是红色的</p>`其中必须又 # 号来标明ID;
 *  可以结合派生选择器使用`#sidebar p{color :red;}` 表示sidebar这个id的标签下的p标签内容为红色;
 
-###类选择器
+### 类选择器
 > * `.center{text-align:center} <h1 class="center">this heading will be center-aligned</h1>` class的用法 
 *  class 和id不一样,class在一个页面可以有多个,但是id只有一个;
 *  同样可以用作派生选择器 `.fancy td{color: #f60} `
