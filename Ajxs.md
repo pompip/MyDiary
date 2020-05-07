@@ -1,4 +1,6 @@
-### 原生js实现:
+# Ajxs
+
+## 原生js实现:
 ```
 
         var xmlhttp;
@@ -24,7 +26,7 @@
 
 ```
 
-### Jquery实现
+## Jquery实现
 1. $("div").load();加载完成后填充div;
 
 ```

@@ -35,9 +35,11 @@ public static int e(...);
 ## 定义不混淆的内容
 
 1. 不混淆bean包下的类
+
 ```
 -keep class com.shenghuofan.bean.**{*;}
 ```
+
 2. 待续。。。
 3. 
 
