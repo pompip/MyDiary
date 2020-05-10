@@ -3,10 +3,10 @@
 * [onContextMenu开发过程中的坑.md](onContextMenu开发过程中的坑.md)
 * [Picasso原理.md](Picasso原理.md)
 * [Android+混淆打包.md](Android+混淆打包.md)
-* [Android多线程.md](Android多线程.md)
 * [Android技能汇总.md](Android技能汇总.md)
 * [Drawable+点击效果.md](Drawable+点击效果.md)
 * [点赞动画.md](点赞动画.md)
+* [Magisk安装](Magisk安装.md)
 
 > **后端**
 
@@ -15,7 +15,6 @@
 * [服务器一些命令.md](服务器一些命令.md)
 * [加密+解密.md](加密+解密.md)
 * [数据库命令.md](数据库命令.md)
-* [ThreadLocal+Android.md](ThreadLocal+Android.md)
 * [mysql命令.md](mysql命令.md)
 * [HTTP协议.md](HTTP协议.md)
 * [nginx.md](nginx.md)
