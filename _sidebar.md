@@ -36,6 +36,7 @@
 
 * [树莓派](树莓派.md)
 * [ffmpeg](ffmpeg.md)
+* [树莓派Bluetooth](树莓派Bluetooth.md)
 
 > **杂**
 
@@ -58,3 +59,4 @@
 * [test视频.md](test视频.md)
 * [YY生病了.md](YY生病了.md)
 * [交谈技巧](交谈技巧.md)
+* [经典神回复](经典神回复.md)
