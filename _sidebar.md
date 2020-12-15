@@ -37,6 +37,7 @@
 * [树莓派](树莓派.md)
 * [ffmpeg](ffmpeg.md)
 * [树莓派Bluetooth](树莓派Bluetooth.md)
+* [linux](linux.md)
 
 > **杂**
 
